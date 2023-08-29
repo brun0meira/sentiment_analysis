@@ -33,6 +33,8 @@ Este projeto foi criado com foco primordial no uso mais frequente pelos usuário
 
 Vale ressaltar que os três primeiros tipos de alerta são acompanhados pela própria frase no corpo da mensagem de texto.
 
+A preferência pelo uso do SMS como canal de recebimento de alertas encontra justificativa no cenário atual, no qual passamos a maior parte do nosso dia interagindo constantemente com nossos dispositivos móveis. Dessa forma, a escolha desse meio se mostra altamente conveniente, uma vez que nos permite receber e visualizar as mensagens de alerta de maneira mais ágil. Isso, por sua vez, reduz significativamente a probabilidade de deixarmos passar desapercebidos tais alertas, evitando a perda de um tempo de extrema importância para reagir prontamente a campanhas ou estratégias de vendas direcionadas à IBM.
+
 ## Escolha das frases
 
 A frase de teor positivo foi extraída do [site](https://www.ibm.com/blogs/ibm-comunica/ibm-lanca-capacidades-para-watson/) destacado durante a aula, conforme demonstrado nos slides. A frase em questão é a seguinte:
