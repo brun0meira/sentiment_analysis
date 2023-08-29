@@ -92,14 +92,14 @@ def stopWords(dados: list) -> list:
 
 def dictionary(array_st: list, array_nd: list ) -> list:
     '''
-    Função para remover criar um dicionario entre dois arrays de palavras
+    Função para criar um dicionario entre dois arrays de palavras
 
     Parâmetros:
     -----------
       array_st: list
         Primeiro array
       array_nd: list
-        Segundo array array 
+        Segundo array 
 
     Retorno:
     --------
@@ -142,9 +142,6 @@ def cosine_similarity_with_negatives(text: list, negative_words:list) -> float:
     for palavra in dictionary_frases:
       ocorrencias = negative_words.count(palavra)
       ocorrencia_frase_dois.append(ocorrencias)
-
-    # ocorrencia_frase_um = [1,0,1,1,1]
-    # ocorrencia_frase_dois = [1,1,0,0,1]
 
     # Converta as listas em arrays NumPy
     ocorrencia_frase_um = np.array(ocorrencia_frase_um)
@@ -247,10 +244,10 @@ if __name__ == '__main__':
 
     # Condições que verificam a similaridade e emitem um alerta
     if similaridade_frase_negativa >= 0.70 and similaridade_frase_positiva >= 0.70:
-        send_sms(f'As duas frases são negativas, elas são - Frase 1: {frase_negativa} e Frase 2: {frase_positiva}')
+        send_sms(f'Foram identificadad duas frases negativas sobre a IBM, elas são - Frase 1: {frase_negativa} e Frase 2: {frase_positiva}')
     elif similaridade_frase_negativa >= 0.70:
-        send_sms(f'A primeira frase é negativa, ela é: {frase_negativa}')
+        send_sms(f'Foi identificado uma frase negativa sobre a IBM, ela é: {frase_negativa}')
     elif similaridade_frase_positiva >= 0.70:
-        send_sms(f'A segunda frase é negativa, ela é: {frase_positiva}')
+        send_sms(f'Foi identificado uma frase negativa sobre a IBM, ela é:: {frase_positiva}')
     else:
         print("Nenhuma frase foi identificada como negativa")
