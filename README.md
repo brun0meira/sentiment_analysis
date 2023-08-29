@@ -35,7 +35,7 @@ Vale ressaltar que os três primeiros tipos de alerta são acompanhados pela pr�
 
 ## Escolha das frases
 
-A frase de teor positivo foi extraída do [site]([https://aws.amazon.com/](https://www.ibm.com/blogs/ibm-comunica/ibm-lanca-capacidades-para-watson/) destacado durante a aula, conforme demonstrado nos slides. A frase em questão é a seguinte:
+A frase de teor positivo foi extraída do [site](https://www.ibm.com/blogs/ibm-comunica/ibm-lanca-capacidades-para-watson/) destacado durante a aula, conforme demonstrado nos slides. A frase em questão é a seguinte:
 
 "Os novos recursos de IA de hoje são mais um exemplo de como os avanços de ponta da IA provenientes de IBM Research nos ajudam a fornecer inovações em linguagem, automação e construção de confiança no IBM Watson que estão fazendo a diferença para empresas de todos os tamanhos e em todos os setores"
 
@@ -52,7 +52,7 @@ A lista de palavras negativas definida foi a seguinte:
 Os resultados conquistados serão apresentados por meio de um vídeo de demonstração, acompanhado por duas fotos que capturam os resultados obtidos com a execução do código.
 
 O vídeo de demonstração do projeto pode ser acessado pelo link a seguir:
-[Demonstração Sentiment Analysis]([https://aws.amazon.com/](https://youtu.be/l7DOjElSZIg)
+[Demonstração Sentiment Analysis](https://youtu.be/l7DOjElSZIg)
 
 Quanto as fotos, elas exibem os resultados do projeto, que coincidem com o conteúdo demonstrado no vídeo:
 
